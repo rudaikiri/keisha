@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hehe</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">                 
+                        <p class="letter">
+                            Keisha, I know that recently 
+                            I haven't lived up to the 
+                            expectations I set for myself in
+                             our relationship  pero sana alam mo im always 
+                             trying my best to become the person 
+                             you deserve. I don't think I'll 
+                             ever know how to love someone else 
+                             the way I love you. You are the 
+                             last person I will ever want to 
+                             love like this. I love you so much.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
